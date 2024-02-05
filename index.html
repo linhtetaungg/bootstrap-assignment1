@@ -17,7 +17,7 @@
   </head>
   <body>
     <!-- navbar session -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Letterboxd</a>
         <button
@@ -34,10 +34,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link" href="#"
                 >Courses</a
               >
             </li>
@@ -144,7 +144,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-3 mt-5">
-          <div class="card" style="width: 100%;">
+          <div class="card text-center" style="width: 100%;">
             <img src="images/castello_cavalcanti_1262.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Castello Cavalcanti (2013)</h5>
@@ -154,7 +154,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mt-5">
-          <div class="card" style="width: 100%;">
+          <div class="card text-center" style="width: 100%;">
             <img src="images/castello_cavalcanti_1262.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Castello Cavalcanti (2013)</h5>
@@ -164,7 +164,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mt-5">
-          <div class="card" style="width: 100%;">
+          <div class="card text-center" style="width: 100%;">
             <img src="images/castello_cavalcanti_1262.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Castello Cavalcanti (2013)</h5>
@@ -174,7 +174,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mt-5">
-          <div class="card" style="width: 100%;">
+          <div class="card text-center" style="width: 100%;">
             <img src="images/castello_cavalcanti_1262.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Castello Cavalcanti (2013)</h5>
@@ -187,25 +187,26 @@
     </div>
 
     <!-- pagination session -->
-    <nav class="mt-5">
-      <ul class="pagination  justify-content-center">
+    <div>
+      <ul class="pagination  justify-content-center mt-5">
         <li class="page-item disabled">
-          <a class="page-link">Previous</a>
+          <a class="page-link">&laquo;</a>
         </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item active" aria-current="page">
+        <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+        <li class="page-item">
           <a class="page-link" href="#">2</a>
         </li>
         <li class="page-item"><a class="page-link" href="#">3</a></li>
         <li class="page-item">
-          <a class="page-link" href="#">Next</a>
+          <a class="page-link" href="#">&raquo;</a>
         </li>
       </ul>
-    </nav>
-
-    <div class="pt-2 mt-5 text-secondary" style="background-color:#F8F9FA; text-align: center; height: 60px;">
-      copyright &copy; 2023.
     </div>
+
+    <!-- footer session -->
+    <footer class="pt-2 mt-5">
+      <p class="text-center text-secondary">copyright &copy; 2023.</p>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
 .carousel-img {
   height: 400px; 
   object-fit: cover; 
+}
+
+footer {
+  background-color:#F8F9FA;
+  height: 60px;
 }
